@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex1_mixing/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex1_separation/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex2_summary/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex3_missing/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex3_scaled_ranges/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://henriquetg1.github.io/ann-dl/exercises/data/tables/ex3_spend_stats/</loc>
+         <lastmod>2026-09-11</lastmod>
+    </url>
+</urlset>
