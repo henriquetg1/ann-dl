@@ -4,6 +4,10 @@ site_url: https://henriquetg1.github.io/ann-dl/
 repo_url: https://github.com/henriquetg1/ann-dl
 repo_name: henriquetg1/ann-dl
 
+# Table fragments are pulled into the reports with snippets, not pages of their own
+exclude_docs: |
+  exercises/*/tables/
+
 theme:
   name: material
   palette:

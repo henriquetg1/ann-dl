@@ -96,7 +96,7 @@ def run(rng, out_dir):
         rows.append({
             "dataset": names[k],
             "PC1": evr[0], "PC2": evr[1], "PC1+PC2": evr[:2].sum(),
-            "||mu_1 - mu_2|| (5D)": float(np.linalg.norm(centers[0] - centers[1])),
+            "center distance (5D)": float(np.linalg.norm(centers[0] - centers[1])),
             "mean radius class 1": float(radius[y == 0].mean()),
             "mean radius class 2": float(radius[y == 1].mean()),
             "nearest-center mixing": nearest_center_mixing(X, y),
@@ -104,7 +104,7 @@ def run(rng, out_dir):
         res[f"dataset_{k}"] = {
             "explained_variance_ratio": evr.round(4).tolist(),
             "pc1_pc2": round(float(evr[:2].sum()), 4),
-            "center_distance_5d": round(rows[-1]["||mu_1 - mu_2|| (5D)"], 4),
+            "center_distance_5d": round(rows[-1]["center distance (5D)"], 4),
             "class_means": [c.round(3).tolist() for c in centers],
             "nearest_center_mixing": round(rows[-1]["nearest-center mixing"], 4),
         }
