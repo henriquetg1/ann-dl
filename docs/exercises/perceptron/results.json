@@ -1,0 +1,258 @@
+{
+  "exercise_1": {
+    "n_samples": 2000,
+    "samples_per_class": [
+      1000,
+      1000
+    ],
+    "empirical_means": [
+      [
+        1.45,
+        1.473
+      ],
+      [
+        5.01,
+        5.013
+      ]
+    ],
+    "w0": [
+      0.009914,
+      -0.00827
+    ],
+    "eta_0.01": {
+      "w": [
+        0.0319,
+        0.0287
+      ],
+      "b": -0.2,
+      "epochs": 2,
+      "converged": true,
+      "accuracy": 1.0,
+      "misclassified": 0,
+      "direction": [
+        0.7429,
+        0.6694
+      ],
+      "updates_per_epoch": [
+        48,
+        0
+      ],
+      "accuracy_per_epoch": [
+        1.0,
+        1.0
+      ]
+    },
+    "eta_1.0": {
+      "w": [
+        1.7173,
+        1.6646
+      ],
+      "b": -11.0,
+      "epochs": 2,
+      "converged": true,
+      "accuracy": 1.0,
+      "direction": [
+        0.7181,
+        0.696
+      ],
+      "updates_per_epoch": [
+        25,
+        0
+      ],
+      "accuracy_per_epoch": [
+        1.0,
+        1.0
+      ]
+    },
+    "angle_between_directions_deg": 2.085,
+    "diagonal_crossing": {
+      "eta_0.01": 3.2989,
+      "eta_1.0": 3.2526
+    },
+    "mean_norm_x": 4.654,
+    "norm_w0": 0.01291,
+    "initial_accuracy": 0.615,
+    "zero_start": {
+      "eta_0.01": {
+        "w": [
+          0.017074,
+          0.016729
+        ],
+        "b": -0.11,
+        "epochs": 2
+      },
+      "eta_1.0": {
+        "w": [
+          1.70743,
+          1.672855
+        ],
+        "b": -11.0,
+        "epochs": 2
+      },
+      "ratio_w": [
+        100.0,
+        100.0
+      ],
+      "ratio_b": 100.0
+    }
+  },
+  "exercise_2": {
+    "n_samples": 2000,
+    "samples_per_class": [
+      1000,
+      1000
+    ],
+    "empirical_means": [
+      [
+        3.072,
+        3.019
+      ],
+      [
+        3.955,
+        3.955
+      ]
+    ],
+    "mean_norm_x": 5.111,
+    "reference_line_x1_plus_x2_eq_7": {
+      "w": [
+        1.0,
+        1.0
+      ],
+      "b": -7.0,
+      "accuracy": 0.702,
+      "share_predicted_class_1": 0.489,
+      "centroid_distance": -0.0,
+      "diagonal_crossing": 3.5
+    },
+    "best_line_theoretical_accuracy": 0.7181,
+    "w0": [
+      -0.014556,
+      -0.004621
+    ],
+    "initial_accuracy": 0.5,
+    "epochs_run": 100,
+    "converged": false,
+    "final": {
+      "w": [
+        0.0682,
+        0.0965
+      ],
+      "b": -0.46,
+      "accuracy": 0.6485,
+      "share_predicted_class_1": 0.7575,
+      "centroid_distance": 0.9807,
+      "diagonal_crossing": 2.7941
+    },
+    "pocket": {
+      "w": [
+        0.0709,
+        0.065
+      ],
+      "b": -0.48,
+      "accuracy": 0.707,
+      "share_predicted_class_1": 0.478,
+      "centroid_distance": -0.041,
+      "diagonal_crossing": 3.5295
+    },
+    "pocket_epoch": 40,
+    "updates_per_epoch": {
+      "first": 822,
+      "last": 757,
+      "mean": 766.2
+    },
+    "current_accuracy_per_epoch": {
+      "min": 0.608,
+      "max": 0.683,
+      "mean": 0.646,
+      "last_10": [
+        0.649,
+        0.6485,
+        0.6485,
+        0.6515,
+        0.643,
+        0.652,
+        0.646,
+        0.633,
+        0.655,
+        0.6485
+      ]
+    },
+    "last_epoch_after_each_update": {
+      "min": 0.5,
+      "max": 0.7065,
+      "mean": 0.6048
+    },
+    "trajectory": {
+      "b_first_last": [
+        -0.38,
+        -0.46
+      ],
+      "w_norm_min_max": [
+        0.1076,
+        0.1324
+      ],
+      "diagonal_crossing_min_max": [
+        2.497,
+        3.011
+      ]
+    },
+    "crossing_after_each_update_epochs_51_100": {
+      "median": 3.472,
+      "iqr": [
+        2.563,
+        4.799
+      ]
+    },
+    "relative_step": {
+      "eta_norm_x_over_norm_w": 0.539,
+      "eta_over_abs_b": 0.023
+    },
+    "supplementary_checks": {
+      "sorted by class, eta=0.01, 100 epochs": {
+        "final_accuracy": 0.5025,
+        "w": [
+          0.0457,
+          0.0374
+        ],
+        "b": -0.06,
+        "pocket_accuracy": 0.6925,
+        "pocket_epoch": 15,
+        "last_100_epochs_mean": 0.5019,
+        "last_100_epochs_min_max": [
+          0.5,
+          0.504
+        ]
+      },
+      "eta=0.001, 100 epochs": {
+        "final_accuracy": 0.6825,
+        "w": [
+          0.0078,
+          0.0081
+        ],
+        "b": -0.048,
+        "pocket_accuracy": 0.707,
+        "pocket_epoch": 64,
+        "last_100_epochs_mean": 0.645,
+        "last_100_epochs_min_max": [
+          0.61,
+          0.6835
+        ]
+      },
+      "eta=0.01, 500 epochs": {
+        "final_accuracy": 0.634,
+        "w": [
+          0.089,
+          0.0813
+        ],
+        "b": -0.45,
+        "pocket_accuracy": 0.7075,
+        "pocket_epoch": 200,
+        "last_100_epochs_mean": 0.6466,
+        "last_100_epochs_min_max": [
+          0.545,
+          0.683
+        ]
+      }
+    }
+  }
+}

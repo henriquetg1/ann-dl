@@ -15,7 +15,7 @@ figures shown in the report (`figures/`).
 ## Deliverables
 
 - [x] [1. Data](exercises/data/index.md) — 10.sep.2026
-- [ ] 2. Perceptron
+- [x] [2. Perceptron](exercises/perceptron/index.md) — 22.sep.2026
 - [ ] 3. MLP
 - [ ] 4. VAE
 - [ ] Projects
@@ -26,6 +26,7 @@ figures shown in the report (`figures/`).
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
-python docs/exercises/data/code/main.py   # regenerates figures, tables and results.json
+python docs/exercises/data/code/main.py         # Data: figures, tables, results.json
+python docs/exercises/perceptron/code/main.py   # Perceptron: figures, results.json
 mkdocs serve -o                           # preview the site locally
 ```

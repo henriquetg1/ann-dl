@@ -79,3 +79,4 @@ nav:
   - Home: index.md
   - Exercises:
     - 1. Data: exercises/data/index.md
+    - 2. Perceptron: exercises/perceptron/index.md
